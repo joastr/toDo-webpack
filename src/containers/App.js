@@ -39,7 +39,7 @@ class App extends React.Component {
             <div className={style.TodoApp}>
                 <Title title='Todo App' length={this.state.data.length} />
                 <ul className={cssStyle.TodoList}>
-                    <TodoList />
+                    <TodoList items={this.state.data} remove={this.removeTodo.bind(this)} />
                 </ul>
             </div>
         );
