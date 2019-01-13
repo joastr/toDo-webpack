@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 .TodoApp {
-    background-color: #F5F5F5;
+    background-color: rgb(247, 252, 178);
     color: #222;
     display: flex;
     flex-direction: column;
@@ -12,5 +12,7 @@
     height: 100vh;
     font-family: lato, sans-serif;
     color: #11377b;
+    font-weight: 100;
+    font-size: 2em;
 }
 
